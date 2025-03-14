@@ -24,7 +24,9 @@ Due to the file size limit of GitHub, we only uploaded the evaluation code and p
 
 We selected 5 datasets for empirical research. The table below provides a summary of the datasets, including the models paired with the datasets, the number of model layers, the number of classification tasks, and the accuracy.
 In addition, we also show the number of instances used for model training, validation, repair, and testing, following existing research.
+
 ![](images/datasets.png)
+
 Specifically, the MNIST dataset is used for digit recognition tasks, the cifar10, cifar10s, and imagenet datasets are used for object recognition tasks, and utkface is used for human-centric tasks, where utkface and cifar10s use race and color as sensitive attributes to evaluate fairness, respectively.
 
 **NOTE:** All datasets used in our study could be obtained from their homepages ([MNIST](http://yann.lecun.com/exdb/mnist/), [UTKface](https://susanqq.github.io/UTKFace/), [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html), [IMAGENET](https://image-net.org/download-images.php)). Please note that CIFAR-10S dataset used in our study is constructed by [Wang et al.](https://arxiv.org/abs/1911.11834) based on CIFAR-10 dataset.
@@ -63,6 +65,7 @@ Below is the epsilon parameter when performing PGD adversarial attack on the mod
 
 We provide scripts to evaluate the performance of studied approaches in our study.
 Here is a demo and you can run scripts evaluate.py to have a quick start.
+
 ```bash
 conda activate fixing_study
 unzip models.zip
