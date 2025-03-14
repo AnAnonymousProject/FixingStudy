@@ -30,10 +30,6 @@ In addition, we also show the number of instances used for model training, valid
   <img src="images/datasets.png">
 </p>
 
-<div style="text-align: center;">
-![](images/datasets.png)
-</div>
-
 Specifically, the MNIST dataset is used for digit recognition tasks, the cifar10, cifar10s, and imagenet datasets are used for object recognition tasks, and utkface is used for human-centric tasks, where utkface and cifar10s use race and color as sensitive attributes to evaluate fairness, respectively.
 
 **NOTE:** All datasets used in our study could be obtained from their homepages ([MNIST](http://yann.lecun.com/exdb/mnist/), [UTKface](https://susanqq.github.io/UTKFace/), [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html), [IMAGENET](https://image-net.org/download-images.php)). Please note that CIFAR-10S dataset used in our study is constructed by [Wang et al.](https://arxiv.org/abs/1911.11834) based on CIFAR-10 dataset.
@@ -88,22 +84,22 @@ Please note that all the figures and tables in our paper are based on the result
 
 The experimental results of RQ1 and RQ2 are listed in the following table.
 
-<div style="text-align: center;">
+<p align="center">
 ![](images/acc_rr.png)
-</div>
+</p>
 
 The experimental results of RQ3 are listed in the following table.
 
-<div style="text-align: center;">
+<p align="center">
 ![](images/asr_aaod_nfr.png)
-</div>
+</p>
 
-<div style="text-align: center;">
+<p align="center">
 ![](images/groups.png)
-</div>
+</p>
 
 The experimental results of RQ4 are listed in the following table.
 
-<div style="text-align: center;">
+<p align="center">
 ![](images/time.png)
-</div>
+</p>
