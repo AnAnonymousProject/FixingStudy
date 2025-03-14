@@ -25,6 +25,11 @@ Due to the file size limit of GitHub, we only uploaded the evaluation code and p
 We selected 5 datasets for empirical research. The table below provides a summary of the datasets, including the models paired with the datasets, the number of model layers, the number of classification tasks, and the accuracy.
 In addition, we also show the number of instances used for model training, validation, repair, and testing, following existing research.
 
+
+<p align="center">
+  <img src="images/datasets.png">
+</p>
+
 <div style="text-align: center;">
 ![](images/datasets.png)
 </div>
