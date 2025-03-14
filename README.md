@@ -25,7 +25,9 @@ Due to the file size limit of GitHub, we only uploaded the evaluation code and p
 We selected 5 datasets for empirical research. The table below provides a summary of the datasets, including the models paired with the datasets, the number of model layers, the number of classification tasks, and the accuracy.
 In addition, we also show the number of instances used for model training, validation, repair, and testing, following existing research.
 
+<div style="text-align: center;">
 ![](images/datasets.png)
+</div>
 
 Specifically, the MNIST dataset is used for digit recognition tasks, the cifar10, cifar10s, and imagenet datasets are used for object recognition tasks, and utkface is used for human-centric tasks, where utkface and cifar10s use race and color as sensitive attributes to evaluate fairness, respectively.
 
@@ -80,11 +82,23 @@ python evaluate.py --dataset mnist --model_sturct lenet5 --approach apricot --st
 Please note that all the figures and tables in our paper are based on the results of experiments combined.
 
 The experimental results of RQ1 and RQ2 are listed in the following table.
+
+<div style="text-align: center;">
 ![](images/acc_rr.png)
+</div>
 
 The experimental results of RQ3 are listed in the following table.
+
+<div style="text-align: center;">
 ![](images/asr_aaod_nfr.png)
+</div>
+
+<div style="text-align: center;">
 ![](images/groups.png)
+</div>
 
 The experimental results of RQ4 are listed in the following table.
+
+<div style="text-align: center;">
 ![](images/time.png)
+</div>
