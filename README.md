@@ -78,7 +78,7 @@ python evaluate.py --dataset mnist --model_sturct lenet5 --approach apricot --st
 ```
 
 
-### **5.Experimental Results**
+### **5. Experimental Results**
 
 Please note that all the figures and tables in our paper are based on the results of experiments combined.
 
