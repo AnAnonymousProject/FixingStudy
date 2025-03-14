@@ -85,21 +85,21 @@ Please note that all the figures and tables in our paper are based on the result
 The experimental results of RQ1 and RQ2 are listed in the following table.
 
 <p align="center">
-![](images/acc_rr.png)
+  <img src="images/acc_rr.png">
 </p>
 
 The experimental results of RQ3 are listed in the following table.
 
 <p align="center">
-![](images/asr_aaod_nfr.png)
+  <img src="images/asr_aaod_nfr.png">
 </p>
 
 <p align="center">
-![](images/groups.png)
+  <img src="images/groups.png">
 </p>
 
 The experimental results of RQ4 are listed in the following table.
 
 <p align="center">
-![](images/time.png)
+  <img src="images/time.png">
 </p>
