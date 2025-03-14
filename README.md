@@ -49,6 +49,8 @@ pip install tensorflow==2.3.0 scikit-learn==0.20.4 numpy==1.18.5 h5py==2.10.0 fo
 
 ### **4.2 Implementation**
 
+Below is the epsilon parameter when performing PGD adversarial attack on the model.
+
 | Dataset   | epsilon  |
 |-------|-------|
 | MNIST | 0.15 |
