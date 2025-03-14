@@ -9,12 +9,13 @@ Due to the file size limit of GitHub, we only uploaded the evaluation code and p
 
 
 ###**2.Structure**
+```
 |--Fixing Study/
 |--|--evaluate.py           : The evaluation code
 |--|--datasets.zip          : The dataset
 |--|--models.zip            : The original model before fixing
 |--|--evaluation_models.zip : The evaluation models after fixing
-
+```
 
 ###**3.Datasets**
 We selected 5 datasets for empirical research. The table below provides a summary of the datasets, including the models paired with the datasets, the number of model layers, the number of classification tasks, and the accuracy.
